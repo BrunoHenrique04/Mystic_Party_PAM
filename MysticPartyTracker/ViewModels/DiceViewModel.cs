@@ -34,10 +34,14 @@ namespace MysticPartyTracker.ViewModels
         {
             Total = 0;
             Dice dice = new Dice(NumberSides);
+            Rolls.Clear();
+
             for (int i = 0; i < Quantity; i++)
             {
+                
                 int roll = dice.Rolar();
                 Total += roll;
+                Rolls.Add(roll);
             }
         }
 

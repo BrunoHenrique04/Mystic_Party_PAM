@@ -11,14 +11,12 @@ public partial class DiceView : ContentPage
 
 	}
 
-    private void rollardadosButton_Clicked(object sender, EventArgs e)
+    /*
+     private void rollardadosButton_Clicked(object sender, EventArgs e)
     {
 		int lados = Convert.ToInt32(PickerLados.SelectedItem);
 		int dados = Convert.ToInt32(PickerDados.SelectedItem.ToString());
 		Dice dice = new Dice(lados);
-		ValueDice.Text = "";
-		ValueDiceSecond.Text = "";
-
         int total = 0;
 
 
@@ -34,4 +32,6 @@ public partial class DiceView : ContentPage
         }
 
     }
+	*/
+	
 }

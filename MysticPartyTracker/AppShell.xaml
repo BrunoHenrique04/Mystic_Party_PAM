@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MysticPartyTracker">
 
+    <TabBar>
     <ShellContent
         Title="Dice"
         ContentTemplate="{DataTemplate local:DiceView}"
         Route="Dice Roler" />
+
+    <ShellContent
+        Title="Character"
+        ContentTemplate="{DataTemplate local:CharacterView}"
+        Route="Character" />
+    </TabBar>
 
 </Shell>

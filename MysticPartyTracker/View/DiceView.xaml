@@ -4,21 +4,21 @@
              x:Class="MysticPartyTracker.View.DiceView"
              Title="DiceView">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
 
-        <Label
-            x:Name="ValueDice"
-            Text="{Binding Total}"
-            
-            />
 
-        <Label
-            x:Name="ValueDiceSecond"
-            />
+        <Label x:Name="Valor"
+               Text="{Binding Total}"
+               />
 
+        <CollectionView ItemsSource="{Binding Rolls}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Label Text="{Binding}"/>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
 
         <Picker x:Name="PickerDados" SelectedItem="{Binding Quantity}">
@@ -47,7 +47,6 @@
         <Button 
             x:Name="rollardadosButton"
             Text="Rolar Dados"
-            Clicked="rollardadosButton_Clicked"
             Command="{Binding RollCommand}"
             />
 
