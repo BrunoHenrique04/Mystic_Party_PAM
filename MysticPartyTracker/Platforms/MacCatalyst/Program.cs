@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MysticPartyTracker
+namespace MysticPartyTracker.Platforms.MacCatalyst
 {
     public class Program
     {

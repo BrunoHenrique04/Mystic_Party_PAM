@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace MysticPartyTracker
+namespace MysticPartyTracker.Platforms.iOS
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate
