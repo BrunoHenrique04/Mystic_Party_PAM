@@ -6,6 +6,7 @@
     <VerticalStackLayout>
 
 
+
         <Label Text=" Digite o Nome"></Label>
         <Entry 
             x:Name="CharcterName"
@@ -18,8 +19,8 @@
             x:Name="Raca"
             Text="{Binding Race}"
         />
-        
-        
+
+
         <Label Text=" Digite a Nivel"></Label>
         <Entry
             x:Name="Nivel"
@@ -31,12 +32,46 @@
             x:Name="Clas"
             Text="{Binding Class}"
             />
-        
+
         <Button
             x:Name="AddCharc"
             Text="Adicionar Personagem"
-            Command=""
+            Command="{Binding  AddCharCommand}"
+            />
 
+
+        <CollectionView ItemsSource="{Binding Characters}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout Margin="20"
+                                               Spacing="20"
+                                               >
+                            <HorizontalStackLayout Spacing="5">
+                                <Label Text="Nome: "/>
+                                <Label Text="{Binding Name}"/>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Spacing="5">
+                            <Label Text="Raça: " />
+                            <Label Text="{Binding Race}"/>
+                            </HorizontalStackLayout>
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Margin="20"
+                                               Spacing="20"
+                                               >
+                            <HorizontalStackLayout Spacing="5">
+                                <Label Text="Classe: "/>
+                                <Label Text="{Binding Class}"/>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Spacing="5">
+                                <Label Text="Nivel: "/>
+                                <Label Text="{Binding Level}"/>
+                            </HorizontalStackLayout>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
 
 

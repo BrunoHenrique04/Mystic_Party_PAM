@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2DS -EVB\\PAM\\MysticPartyTracker\\MysticPartyTracker\\MysticPartyTracker.csproj": {}
+    "D:\\2D-BEV\\PAM\\Mystic_Party_PAM\\MysticPartyTracker\\MysticPartyTracker.csproj": {}
   },
   "projects": {
-    "D:\\2DS -EVB\\PAM\\MysticPartyTracker\\MysticPartyTracker\\MysticPartyTracker.csproj": {
+    "D:\\2D-BEV\\PAM\\Mystic_Party_PAM\\MysticPartyTracker\\MysticPartyTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2DS -EVB\\PAM\\MysticPartyTracker\\MysticPartyTracker\\MysticPartyTracker.csproj",
+        "projectUniqueName": "D:\\2D-BEV\\PAM\\Mystic_Party_PAM\\MysticPartyTracker\\MysticPartyTracker.csproj",
         "projectName": "MysticPartyTracker",
-        "projectPath": "D:\\2DS -EVB\\PAM\\MysticPartyTracker\\MysticPartyTracker\\MysticPartyTracker.csproj",
+        "projectPath": "D:\\2D-BEV\\PAM\\Mystic_Party_PAM\\MysticPartyTracker\\MysticPartyTracker.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\2DS -EVB\\PAM\\MysticPartyTracker\\MysticPartyTracker\\obj\\",
+        "outputPath": "D:\\2D-BEV\\PAM\\Mystic_Party_PAM\\MysticPartyTracker\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -71,11 +71,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -118,11 +118,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -165,11 +165,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -213,11 +213,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.21, )"
             }
           },
           "imports": [
